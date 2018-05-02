@@ -8,7 +8,7 @@
 
 #import "NetUtil.h"
 #import "NSString+MD5Str.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 @implementation NetUtil
 +(void)get:(NSString *)url
    success:(void (^)(NSURLSessionDataTask * _Nonnull task, id _Nullable response))success
