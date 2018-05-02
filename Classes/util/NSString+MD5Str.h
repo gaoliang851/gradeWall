@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CommonCrypto/CommonDigest.h>
+
 @interface NSString (MD5Str)
 +(NSString *)md5WithString:(NSString *)input;
 @end

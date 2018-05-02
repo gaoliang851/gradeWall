@@ -7,7 +7,7 @@
 //
 
 #import "NSString+MD5Str.h"
-
+#import <CommonCrypto/CommonDigest.h>
 @implementation NSString (MD5Str)
 +(NSString *)md5WithString:(NSString *)input{
     const char* str = [input UTF8String];
